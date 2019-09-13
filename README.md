@@ -1,4 +1,4 @@
-#JARS - Jacket Automation for Riders' Safety
+# JARS - Jacket Automation for Riders' Safety
 
 - [Abstract](#abstract)
   * [Introducing JARS powered by Google:  ***" A Rider’s Safety Jacket"***](#introducing-jars-powered-by-google--------a-rider-s-safety-jacket----)
