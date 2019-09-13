@@ -1,7 +1,7 @@
 # JARS - Jacket Automation for Riders' Safety
 
 - [Abstract](#abstract)
-  * [Introducing JARS powered by Google:  ***" A Rider’s Safety Jacket"***](#introducing-jars-powered-by-google--------a-rider-s-safety-jacket----)
+  * [Introducing JARS powered by Google:  ***"A Rider’s Safety Jacket"***](#introducing-jars-powered-by-google--------a-rider-s-safety-jacket----)
       - [*(A smart perspective in Road Safety Automation)*](#--a-smart-perspective-in-road-safety-automation--)
       - [*SAFE ROADS, HAPPY FAMILIES*](#-safe-roads--happy-families-)
     + [Origin of the thought-­‐ Snapshot of my Research](#origin-of-the-thought----snapshot-of-my-research)
@@ -47,7 +47,7 @@
 
 #  Abstract
 
-## Introducing JARS powered by Google:  ***" A Rider’s Safety Jacket"***
+## Introducing JARS powered by Google:  ***"A Rider’s Safety Jacket"***
 
 #### *(A smart perspective in Road Safety Automation)*
 
