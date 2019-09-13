@@ -53,47 +53,22 @@
 
 #### *SAFE ROADS, HAPPY FAMILIES*
 
-JARS is a smart jacket developed with the intention of tremendously improving road safety  
-while improving visibility of a two wheeler rider on the road with a wearable that is both  
-fashionable and affordable. The jacket looks much like any windcheater, but inside it is a  
-powerful AVR core that provides the user with a plethora of extra functionality. These  
-functions improve safety of motorcyclists in several aspects:
+JARS is a smart jacket developed with the intention of tremendously improving road safety while improving visibility of a two wheeler rider on the road with a wearable that is both fashionable and affordable. The jacket looks much like any windcheater, but inside it is a powerful AVR core that provides the user with a plethora of extra functionality. These functions improve safety of motorcyclists in several aspects:
 
 -   Enhanced visibility and attention on the road from the co drivers
 -   Human tendency to forget to turn on and off the indicators
 -   Over speeding
 -   Auto navigation and many more possibilities
 
-Powered by Atmel ATMega 32U4, an SMT microprocessor, the prototype jacket had been  
-developed using the Arduino Lilypad Wearable Platform, and is equipped with a mobile app  
-makes use of Google Maps Application program interfaces (APIs) for control of its advanced  
-functionality.
+Powered by Atmel ATMega 32U4, an SMT microprocessor, the prototype jacket had been developed using the Arduino Lilypad Wearable Platform, and is equipped with a mobile app makes use of Google Maps Application program interfaces (APIs) for control of its advanced functionality.
 
-JARS  **Auto Indicators function**  allows it to automatically toggle indicator lights mounted  
-strategically on the back of jacket to attract attention of busy co drivers on the road. The  
-mobile app ensures that indicators turn on 60m before a turn approaches and automatically  
-switch off once turn completed, eliminating the human error in switching on and off the  
-indicators manually. Turn indicators’ status also flash on driver’s arm ensuring that he  
-knows which indicator is on. A manual button is provided on each of the gloves for manual  
-control as and when required.
+JARS  **Auto Indicators function**  allows it to automatically toggle indicator lights mounted strategically on the back of jacket to attract attention of busy co drivers on the road. The mobile app ensures that indicators turn on 60m before a turn approaches and automatically switch off once turn completed, eliminating the human error in switching on and off the indicators manually. Turn indicators’ status also flash on driver’s arm ensuring that he knows which indicator is on. A manual button is provided on each of the gloves for manual control as and when required.
 
-JARS also includes  **Over speed warning lights**  on the right arm. It warns the rider whenever  
-his/her speed crosses the safe speed limits by continuously flashing a row of LEDS so that  
-he/she can slow down before the situation goes out of hand.
+JARS also includes  **Over speed warning lights**  on the right arm. It warns the rider whenever his/her speed crosses the safe speed limits by continuously flashing a row of LEDS so that he/she can slow down before the situation goes out of hand.
 
-JARS also provides a safe and easy way for a biker to navigate to an unknown destination  
-without the hassle of handling a phone and risking an accident.
+JARS also provides a safe and easy way for a biker to navigate to an unknown destination without the hassle of handling a phone and risking an accident.
 
-All the components in JARS except the detachable Bluetooth module and battery are  
-washable! Components have been stitched to the Jacket using wearable, washable  
-conductive thread.
-Costing about 13 00 INR at prototype stage, this safety model can be sewed on all sort of  
-fabrics and clothing, making it a flexible option to sew it to your T shirts/shirts/ pull overs  
-and hence customize your needs.
-Further work is underway to include an alcohol sensor under the jacket collar so that person  
-is warned that they are not sober enough to drink, and thus can arrange for an alternate  
-means of transport. I am also working on consolidating over speeding/Drunk driving data  
-through Mobile App to create a log of activities for the Rider.
+All the components in JARS except the detachable Bluetooth module and battery are washable! Components have been stitched to the Jacket using wearable, washable conductive threadCosting about 13 00 INR at prototype stage, this safety model can be sewed on all sort of fabrics and clothing, making it a flexible option to sew it to your T shirts/shirts/ pull overs and hence customize your needsFurther work is underway to include an alcohol sensor under the jacket collar so that person is warned that they are not sober enough to drink, and thus can arrange for an alternate means of transport. I am also working on consolidating over speeding/Drunk driving data through Mobile App to create a log of activities for the Rider.
 
 **Life doesn’t have reset button. Drive safe with JARS (A JACKET AUTOMATION FOR RIDER’s  SAFETY)**
 ### Origin of the thought-­‐ Snapshot of my Research
@@ -338,25 +313,40 @@ Below is the explanation of the code arranged chronologically, on basis of the s
  1. ***Geocoding***: The first step the user has to take is to set his/her destination. This  
 involves feeding the Address in a text box, and clicking the “Set Destination” button. It is important to note that Google can only find directions between two sets of co-­‐  ordinates, not an address. For this purpose, the address entered by the user has to  be converted into a Lat-­‐Long format, through a process called Geocoding. This is  done by sending the address to google, which in turn returns the geo co-­‐ordinates of  the address in the form of a java list. The code then reads the object present on the  first index of the List, and assigns it to 2 variables.
 
->    ```java var s = "JavaScript syntax highlighting"; alert(s);  if           (v                ==             **btnClick** )                                    {  
->          **try**                                                                                                  
->          {  
->               **if** (gc. _isPresent_ ())                                                            {  
->     List<adresse>                            list                     =                  **null**    ;  
->     **try**                                                                                          {  
->              list                      =                   gc.getFromLocationName(str,            1 );    
->     }                     **catch**                    (IOException e)                               {  
->     e.printStackTrace();  
->     }  
->     Address address =                                                                   list.get( 0 );  
->     _lat_  =                                                                    address.getLatitude();  
->     _lng_  =                                                                 address.getLongitude();  
->     }  
->     }  **catch**  (Exception                                                                       ex)  
->     {  
->                Toast.  _makeText_  (  **this**  ,  **"Destination not found! Please Recheck!"**  ,Toast.  **_LENGTH_SHORT)_**  
->     .show();
->          }
+```java
+ @Override
+    public void onClick(View v) {
+        Context context = this;
+        EditText input = (EditText) findViewById(R.id.editText);
+        String str = input.getText().toString();
+        Geocoder gc = new Geocoder(context);
+        cood = (TextView) this.findViewById(R.id.textView);
+        if (v == btnClick) {
+            try {
+                if (gc.isPresent()) {
+
+                    List<Address> list = null;
+                    try {
+                        list = gc.getFromLocationName(str, 1);
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+
+                    Address address = list.get(0);
+
+                    lat = address.getLatitude();
+                    lng = address.getLongitude();
+                    //String strlat= Double.toString(lat);
+                    //String strlong= Double.toString(lng);
+
+                }
+            }catch(Exception ex)
+            {
+                Toast.makeText(this,"Destination not found! Please Recheck!",Toast.LENGTH_SHORT).show();
+            }
+
+        }
+```
 
 2. ***Fetching all possible routes to the destination :*** When the user presses the button to select the route to the destination, a Google Maps Server and API Key help determine all the routes to the destination. In addition to this, a custom library helps fetch the routes in the form of a list object, which is then read. To do this, this activity uses the geocoded destination retrieved earlier and the user’s current location based on GPS, and sends this data to Google. The routes that are received are displayed using polylines on a map, with different colours indicating different routes. These polylines have their ID stored in a list, for later use.
 
@@ -446,104 +436,170 @@ As    indicated      alongside,     each   “step”     is     nothing    but 
 As    a      safety     measure,   to     prevent    an     index      not    found exception    from   being      thrown,  this      incremental    process    is     stalled    once   the    manIndex   (maneuver      index)     is     1      less   that the   size   of     the    step   object.    The    statement      is     surrounded     by     try-­‐catch()      to     handle     any  other     exceptions.
 ![l](https://i.imgur.com/4aP1zpP.jpg)
 
-   ```java var s = "JavaScript syntax highlighting"; alert(s);
-    @Override  
-    **public void**  onLocationChanged(Location location) {
-
-    _currentlat_  = location.getLatitude();  
-    _currentlng_  = location.getLongitude();  
-    **latituteField**  .setText(Double.  _toString_  (  _currentlat_  ));  
-    **longitudeField**  .setText(Double.  _toString_  (  _currentlng_  ));
-
-    **if**  (  _checkInit_  ==  **true**  ) {  
-    _a_  = SimpleDirectionActivity.  _leg_  .getStepList().get(SimpleDirectionActivity.  _stepInd_  );  
-    _man_  = SimpleDirectionActivity.  _leg_  .getStepList().get(  _manInd_  );
-
-    SimpleDirectionActivity.  _maneuver_  =  _man_  .getManeuver();
-
-    _getLong_  =  _a_  .getEndLocation().getLongitude();  
-    _getLat_  =  _a_  .getEndLocation().getLatitude();  
-    Location.  _distanceBetween_  (  _getLat_  ,  _getLong_  ,  _currentlat_  ,  _currentlng_  ,  _results_  );  
-    _distance_  =  _results_  [ 0 ];
-
-    **if**  (  _distance_  < 15 )  
-    {  
-    Toast.  _makeText_  (  **this**  ,  **"indCheck=true"**  ,Toast.  **_LENGTH_SHORT_**  ).show();  
-    _indCheck_  =  **true**  ;  
-    }
-
-    **if**  (  _distance_  > 20 &&  _indCheck_  )  
-    {  
-    Toast.  _makeText_  (  **this**  ,  **"Indicator OFF"**  ,Toast.  **_LENGTH_LONG_**  ).show();  
-    _indCheck_  =  **false**  ;  
-    Toast.  _makeText_  (  **this**  ,  **"Ind:  
-    "**  +Integer.  _toString_  (SimpleDirectionActivity.  _stepInd_  )+  **"Step:  
-    "**  +Integer.  _toString_  (SimpleDirectionActivity.  _leg_  .getStepList().size()),Toast.  **_LENGTH_SHORT_**  ).sho  
-    w();
-
-    **if**  (SimpleDirectionActivity.  _stepInd_  <SimpleDirectionActivity.  _leg_  .getStepList().size()) {  
-    Toast.  _makeText_  (  **this**  ,  **"updated indexes"**  , Toast.  **_LENGTH_SHORT_**  ).show();  
-    SimpleDirectionActivity.  _stepInd_  ++;
-
-    }  
-    **if**  ((  _manInd_  + 1 )<SimpleDirectionActivity.  _leg_  .getStepList().size())  
-    {  
-    _manInd_  ++;  
-    }  
-    **else**  
-    {  
-    Snackbar.  _make_  (  **longitudeField**  ,  **"Route completed"**  ,Snackbar.  **_LENGTH_LONG_**  ).show();  
-    }  
-    _inRange_  =  **false**  ;  
-    }  **else if**  (  _distance_  > 20 &&!  _indCheck_  )  
-    {  
-    _cood_  .setText(Double.  _toString_  (  _getLat_  ) +  **" , "**  + Double.  _toString_  (  _getLong_  ) +  **"\n"**  +  
-    SimpleDirectionActivity.  _maneuver_  +  **"\n Distance to next turn: "**  + Float.  _toString_  (  _distance_  ) +  
-    **"\t manIndex: "**  + Integer.  _toString_  (  _manInd_  ) +  **" stepIndex: "**  +  
-    Integer.  _toString_  (SimpleDirectionActivity.  _stepInd_  ));  
-    }
-
-    **if**  (  _distance_  <  _radius_  )  
-    {  
-    _cood_  .setText(SimpleDirectionActivity.  _maneuver_  +  **"\n"**  +Float.  _toString_  (  _distance_  ));  
-    **if**  (SimpleDirectionActivity.  _maneuver_  .equals(  **"left"**  ))  
-    {
-
-    }  
-    **else if**  (SimpleDirectionActivity.  _maneuver_  .equals(  **"right"**  ))  
-    {
-
-    }  
-    _//inRange=true;_  
-    }
-
-    _//Gmaps link_  
-    String stpLat = Double.  _toString_  (  _getLat_  );
-    String stpLng = Double. toString ( getLong );
-    SimpleDirectionActivity. maps = "http://maps.google.com/maps?z=12&t=m&q=loc:" +
-    stpLat + "+" + stpLng;
-    //SimpleDirectionActivity.stepInd++;
-    //manInd++;
-    }
-    //Speedometer code below
-    float nCurrentSpeed = location.getSpeed();
-    final Snackbar speedsnack = Snackbar. make ( longitudeField , "OVER
-    SPEED!" ,Snackbar. LENGTH_INDEFINITE );
-    if (nCurrentSpeed>13.888) {
-    speedsnack.setAction( "Dismiss" , new View.OnClickListener() {
+```java
     @Override
-    public void onClick(View v) {
-    speedsnack.dismiss();
-    }
-    });
-    speedsnack.show();
-    }
-    if (nCurrentSpeed<13.888) {
-    speedsnack.dismiss();
-    }
-    }
+    public void onLocationChanged(Location location) {
 
- ```
+        currentlat = location.getLatitude();
+        currentlng = location.getLongitude();
+        latituteField.setText(Double.toString(currentlat));
+        longitudeField.setText(Double.toString(currentlng));
+
+        if(checkInit==true) {
+            a = SimpleDirectionActivity.leg.getStepList().get(SimpleDirectionActivity.stepInd);
+            man = SimpleDirectionActivity.leg.getStepList().get(manInd);
+
+            SimpleDirectionActivity.maneuver = man.getManeuver();
+
+            getLong = a.getEndLocation().getLongitude();
+            getLat = a.getEndLocation().getLatitude();
+            Location.distanceBetween(getLat, getLong, currentlat, currentlng, results);
+            distance=results[0];
+
+            if(distance<15)
+            {
+                Toast.makeText(this,"indCheck=true",Toast.LENGTH_SHORT).show();
+                indCheck=true;
+            }
+
+            if(distance>20 && indCheck)
+            {
+                Toast.makeText(this,"Indicator OFF",Toast.LENGTH_LONG).show();
+
+                //sendTurnOver();
+                TurnOverWrite();
+
+                indCheck=false;
+                Toast.makeText(this,"Ind: "+Integer.toString(SimpleDirectionActivity.stepInd)+"Step: "+Integer.toString(SimpleDirectionActivity.leg.getStepList().size()),Toast.LENGTH_SHORT).show();
+                if(SimpleDirectionActivity.stepInd<SimpleDirectionActivity.leg.getStepList().size()) {
+                    Toast.makeText(this, "updated indexes", Toast.LENGTH_SHORT).show();
+                    SimpleDirectionActivity.stepInd++;
+
+                }
+                if ((manInd+1)<SimpleDirectionActivity.leg.getStepList().size())
+                {
+                    manInd++;
+                }
+                else
+                {
+                    Snackbar.make(longitudeField,"Route completed",Snackbar.LENGTH_LONG).show();
+                    //sendTurnOver();
+                    TurnOverWrite();
+                }
+                inRange=false;
+
+                //update indexes result below
+
+                a = SimpleDirectionActivity.leg.getStepList().get(SimpleDirectionActivity.stepInd);
+                getLong = a.getEndLocation().getLongitude();
+                getLat = a.getEndLocation().getLatitude();
+                Location.distanceBetween(getLat, getLong, currentlat, currentlng, results);
+                distance=results[0];
+
+            } else if(distance>20 && !indCheck)
+            {
+
+                cood.setText(Double.toString(getLat) + " , " + Double.toString(getLong) + "\n" + SimpleDirectionActivity.maneuver + "\n Distance to next turn: " + Float.toString(distance) + "\t manIndex: " + Integer.toString(manInd) + " stepIndex: " + Integer.toString(SimpleDirectionActivity.stepInd));
+            }
+
+
+            if(distance<radius)
+            {
+                cood.setText(SimpleDirectionActivity.maneuver+"\n"+Float.toString(distance));
+                for(int i =0;i<5;i++) {
+                    if (SimpleDirectionActivity.maneuver.equals("turn-left")||SimpleDirectionActivity.maneuver.equals("uturn-left")) {
+
+                        //sendLeft();
+                        LeftWrite();
+
+                    } else if (SimpleDirectionActivity.maneuver.equals("turn-right")||SimpleDirectionActivity.maneuver.equals("uturn-right")) {
+
+                        //sendRight();
+                        RightWrite();
+                    }
+
+                }
+                //inRange=true;
+            }
+            /*else
+            {
+                if(inRange == true)
+                {
+                    Toast.makeText(this,"updated indexes",Toast.LENGTH_SHORT).show();
+                    SimpleDirectionActivity.stepInd++;
+                    manInd++;
+                    inRange=false;
+                }
+                else
+                {
+                    cood.setText(Double.toString(getLat) + " , " + Double.toString(getLong) + "\n" + SimpleDirectionActivity.maneuver + "\n Distance to next turn: " + Float.toString(distance) + "\t manIndex: " + Integer.toString(manInd) + " stepIndex: " + Integer.toString(SimpleDirectionActivity.stepInd));
+
+                }
+
+            }
+            */
+
+            /*if(results[0]>100 && inRange)
+            {
+                SimpleDirectionActivity.stepInd++;
+                manInd++;
+                inRange=false;
+            }
+            if(results[0]>100 && !inRange)
+            {
+                cood.setText(Double.toString(getLat) + " , " + Double.toString(getLong) + "\n" + SimpleDirectionActivity.maneuver + "\n Distance to next turn: " + Float.toString(results[0]) + "\t manIndex: " + Integer.toString(manInd) + " stepIndex: " + Integer.toString(SimpleDirectionActivity.stepInd));
+
+            }
+            */
+
+            //Gmaps link
+            String stpLat = Double.toString(getLat);
+            String stpLng = Double.toString(getLong);
+            SimpleDirectionActivity.maps = "http://maps.google.com/maps?z=12&t=m&q=loc:" + stpLat + "+" + stpLng;
+            //SimpleDirectionActivity.stepInd++;
+            //manInd++;
+        }
+
+        //Speedometer code below
+
+        float nCurrentSpeed = location.getSpeed();
+
+        final Snackbar speedsnack = Snackbar.make(longitudeField,"OVER SPEED!",Snackbar.LENGTH_INDEFINITE);
+
+        if(nCurrentSpeed<13.888) {
+            speedsnack.dismiss();
+            NormalSpeedWrite();
+            //sendNormal();
+        }
+
+        if(nCurrentSpeed>13.888) {
+            speedsnack.setAction("Dismiss", new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    speedsnack.dismiss();
+                }
+            });
+            speedsnack.show();
+            //sendSpeed();
+            SpeedWrite();
+            Toast.makeText(this,"Overspeed sent!",Toast.LENGTH_SHORT).show();
+
+        }
+
+        if(nCurrentSpeed<13.888) {
+            speedsnack.dismiss();
+            NormalSpeedWrite();
+            Log.e("Main Activity","Sent NORMAL SPEED !!!!!!!!");
+            Log.e("Main Activity","Sent NORMAL SPEED !!!!!!!!");
+            Log.e("Main Activity","Sent NORMAL SPEED !!!!!!!!");
+            Log.e("Main Activity","Sent NORMAL SPEED !!!!!!!!");
+            Log.e("Main Activity","Sent NORMAL SPEED !!!!!!!!");
+            //sendNormal();
+        }
+
+    }
+```
+   
 6.  ***Constantly monitoring speed:*** Simultaneously, the app also has to measure the     rider’s speed and check if it is over the speed limit of 50 km/h. This is done within     the onLocationChanged() function, where android has an inbuilt method to calculate     speed. The speed value is returned as a floating point integer, which is then    compared to a preset variable. If the current speed is greater than the preset, it will      send the speed warning to the jacket.      In fact, reports suggest that GPS based speedometers are much more accurate than     the stock car ones, as they are subject to wear, loss of calibration etc. The report can be found here: http://gpssystems.net/accurate-­‐gpsbased-­‐speedometer/
 
 ## Electrical circuit schematic
