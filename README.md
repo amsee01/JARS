@@ -70,9 +70,6 @@ JARS also provides a safe and easy way for a biker to navigate to an unknown des
 
 All the components in JARS except the detachable Bluetooth module and battery are washable! Components have been stitched to the Jacket using wearable, washable conductive threadCosting about 13 00 INR at prototype stage, this safety model can be sewed on all sort of fabrics and clothing, making it a flexible option to sew it to your T shirts/shirts/ pull overs and hence customize your needsFurther work is underway to include an alcohol sensor under the jacket collar so that person is warned that they are not sober enough to drink, and thus can arrange for an alternate means of transport. I am also working on consolidating over speeding/Drunk driving data through Mobile App to create a log of activities for the Rider.
 
-**Life doesn’t have reset button. Drive safe with JARS (A JACKET AUTOMATION FOR RIDER’s  SAFETY)**
-### Origin of the thought-­‐ Snapshot of my Research
-![Imgur](https://i.imgur.com/Jr0OZhW.jpg)
 
 ## My RTI Query and Reply
 
@@ -121,7 +118,7 @@ Please send the requested information as fast as possible.
 Regards,  
 Aman Ladia
 
-![Letter](https://i.imgur.com/irctRi6.jpg)
+
 
 ## Why did I think of making a safety wearable for bikers?
 
@@ -140,36 +137,14 @@ Another common sight is a car bumping into a bike as they cross each other’s p
 
 ## A Survey done in UAE
 
-Sixteen per cent of those polled by UAE Govt felt not indicating was a sign of an experienced  
-driver;  **9 per cent said signalling was a sign of weakness; 11 per cent said indicating was  
-not normal in their home countries; 23 per cent did not signal because they were  
-“distracted by traffic"; and 16 per cent said they did not indicate out of habit.**  
-The findings did not come as a surprise to road safety experts.
-
-“These are just excuses," said Dr Salaheddine Bendak, associate professor at the  
-department of industrial engineering at the University of Sharjah. “Drivers underestimate  
-the importance of using indicators."
-
-Continued awareness is needed to remind motorists that not only is not using indicators a  
-traffic offence, it is also considered “impolite, inconsiderate and dangerous", said Thomas  
-Edelmann, founder of Road Safety UAE.
-
-The penalty if caught not using your indicator is a Dh200 fine and four black points.
-
-“When you use your indicator, you are not only telling other drivers and road users of your  
-intentions," said Dr Bendak. “You’re also minimising the risk of crashes and helping secure a  
-safe environment for yourself and other road users.
+Sixteen per cent of those polled by UAE Govt felt not indicating was a sign of an experienced   driver;  **9 per cent said signalling was a sign of weakness; 11 per cent said indicating was   not normal in their home countries; 23 per cent did not signal because they were   “distracted by traffic"; and 16 per cent said they did not indicate out of habit.**   The findings did not come as a surprise to road safety experts. “These are just excuses," said Dr Salaheddine Bendak, associate professor at the   department of industrial engineering at the University of Sharjah. “Drivers underestimate   the importance of using indicators." Continued awareness is needed to remind motorists that not only is not using indicators a   traffic offence, it is also considered “impolite, inconsiderate and dangerous", said Thomas   Edelmann, founder of Road Safety UAE. The penalty if caught not using your indicator is a Dh200 fine and four black points. “When you use your indicator, you are not only telling other drivers and road users of your   intentions," said Dr Bendak. “You’re also minimising the risk of crashes and helping secure a   safe environment for yourself and other road users.
 
 ## State of safety automation for 2 wheelers
 
 What are the current innovations in respect to motorcycles? These mostly include  
 entertainment systems that clasp onto your handlebar or special locks that hold onto bike  brakes, but nothing that truly addresses safety.
 
-The only bike gadget that has anything to do with rider’s safety is a helmet. Although it  
-definitely improves safety, it provides safety  **after** the accident has already occurred.  
-Moreover, a helmet’s protection capability has been disputed at about 65-­‐75%, which  
-although represents a majority, still represents a large risk of permanent damage to  
-sensitive organs like the brain. So, there is a need to do something that  **prevents**  accidents  from taking place in the first place.
+The only bike gadget that has anything to do with rider’s safety is a helmet. Although it   definitely improves safety, it provides safety  **after** the accident has already occurred.   Moreover, a helmet’s protection capability has been disputed at about 65-­‐75%, which   although represents a majority, still represents a large risk of permanent damage to   sensitive organs like the brain. So, there is a need to do something that  **prevents**  accidents  from taking place in the first place.
 
 When it comes to bicycles, how do bicyclists signal whether they are turning left or right? Only by raising their arms? However, this involves cutting bicycle control to 50% as you let go of the handle bar. This can be particularly difficult when a right hand person has to raise their right hand and vice-­‐versa. This only increases risk of accidents, especially in countries  like India, where bicycle paths are non-­‐existent.
 
@@ -244,11 +219,7 @@ ensuring that the command reaches the jacket.
 
 ## The Arduino Lilypad Jacket
 
-Despite all its computational power, a mobile phone cannot turn indicators on, issue  
-physical warnings and measure alcohol in breath. For this, a powerful Arduino Lilypad  
-processes commands sent serially (Byte by byte) and performs actions accordingly. While it doesn’t handle simultaneous threads, it does refresh Bluetooth connections at the rate of 1  billion Hz, so it is no way idle.
-
-The two phases work together to provide JARS its complete pallet of functionality, which in its essence proves how close machine and code can get.
+Despite all its computational power, a mobile phone cannot turn indicators on, issue   physical warnings and measure alcohol in breath. For this, a powerful Arduino Lilypad   processes commands sent serially (Byte by byte) and performs actions accordingly. While it doesn’t handle simultaneous threads, it does refresh Bluetooth connections at the rate of 1  billion Hz, so it is no way idle. The two phases work together to provide JARS its complete pallet of functionality, which in its essence proves how close machine and code can get.
 
 ## Technical Specifications of the Arduino Lilypad
 
@@ -638,87 +609,42 @@ Maharashtra -­‐ 400007
 
 ### Comparison with existing products
 
-Are there any existing products that function similar to the way JARS does?
-Unfortunately, the answer to a great degree in  **No.**  What are the current innovations in  respect to motorcycles? These mostly include entertainment systems that clasp onto your  handlebar or special locks that hold onto bike brakes, but nothing that truly addresses  safety.
+Are there any existing products that function similar to the way JARS does? Unfortunately, the answer to a great degree in  **No.**  What are the current innovations in  respect to motorcycles? These mostly include entertainment systems that clasp onto your  handlebar or special locks that hold onto bike brakes, but nothing that truly addresses  safety. The only bike gadget that has anything to do with rider’s safety is a helmet. Although it   definitely improves safety, it provides safety  **after** the accident has already occurred.  Moreover, a helmet’s protection capability has been disputed at about 65-­‐75%, which  although represents a majority, still represents a large risk of permanent damage to  sensitive organs like the brain. So, there is a need to do something that  **prevents**  accidents  from taking place in the first place. That is what sets JARS apart from any other piece of bike  safety. When it comes to bicycles, how do bicyclists signal whether they are turning left or right?  Only by raising their arms? However, this involves cutting bicycle control to 50% as you let  go of the handle bar. This can be particularly difficult when a right hand person has to raise  their right hand and vice-­‐versa. This only increases risk of accidents, especially in countries  like India, where bicycle paths are non-­‐existent. In both scenarios, JARS uses its auto-­‐indicator function to prevent mishaps from happening.  In bicycles, the advantage is doubled as the bicyclist now has turn indicators to express  which side he is turning. This is not only useful for the bicyclist but for the vehicles behind  too!
 
-The only bike gadget that has anything to do with rider’s safety is a helmet. Although it  
-definitely improves safety, it provides safety  **after** the accident has already occurred.  Moreover, a helmet’s protection capability has been disputed at about 65-­‐75%, which  although represents a majority, still represents a large risk of permanent damage to  sensitive organs like the brain. So, there is a need to do something that  **prevents**  accidents  from taking place in the first place. That is what sets JARS apart from any other piece of bike  safety.
-
-When it comes to bicycles, how do bicyclists signal whether they are turning left or right?  Only by raising their arms? However, this involves cutting bicycle control to 50% as you let  go of the handle bar. This can be particularly difficult when a right hand person has to raise  their right hand and vice-­‐versa. This only increases risk of accidents, especially in countries  like India, where bicycle paths are non-­‐existent.
-
-In both scenarios, JARS uses its auto-­‐indicator function to prevent mishaps from happening.  In bicycles, the advantage is doubled as the bicyclist now has turn indicators to express  which side he is turning. This is not only useful for the bicyclist but for the vehicles behind  too!
 ## Safety Aspect of Jars
 
-JARS is powered by a 750 mAH battery that supplies 3.7V. The maximum regulated voltage  
-supplied by any Arduino pin is 3.3V.
+JARS is powered by a 750 mAH battery that supplies 3.7V. The maximum regulated voltage supplied by any Arduino pin is 3.3V.
 
 Resistance posed by dry skin is around 500,000 Ω.
 
-Using Ohms law, the current that can pass through your body in the worst conditions if you  touch any Arduino pin will be:![5](https://i.imgur.com/hOGbzlV.png)
-As it can be observed above, the maximum current passing through a person’s body is 6.6 x  10 -­‐^6 Ampere, which is extremely minimal. The minimum threshold for sensation is 0.4mA,  which is 0.4 x 10-­‐^2 Amperes. You can’t even notice it!
-
-Even so, the conductive thread used is insulated.
+Using Ohms law, the current that can pass through your body in the worst conditions if you  touch any Arduino pin will be:![5](https://i.imgur.com/hOGbzlV.png) As it can be observed above, the maximum current passing through a person’s body is 6.6 x  10 -­‐^6 Ampere, which is extremely minimal. The minimum threshold for sensation is 0.4mA,  which is 0.4 x 10-­‐^2 Amperes. You can’t even notice it! Even so, the conductive thread used is insulated.
 
 ### Can JARS be washed?
 
-Yes! All the components in JARS except the Bluetooth module and Alcohol sensor are  
-washable! That is the reason why the Bluetooth and Alcohol sensor can be hot swapped  
-from the jacket with ease.
+Yes! All the components in JARS except the Bluetooth module and Alcohol sensor are   washable! That is the reason why the Bluetooth and Alcohol sensor can be hot swapped   from the jacket with ease. 
 
-**Washing Instructions:** Unplug the battery before washing. Hand wash in cold water with a  
-gentle detergent. Do not dry clean.
+**Washing Instructions:** Unplug the battery before washing. Hand wash in cold water with a   gentle detergent. Do not dry clean.
 
 #### Current Limitations and Possibilities of Error
 
 Although JARS does have a few limitations:
 
--   Before washing/cleaning the jacket, the Bluetooth transceiver and battery need to  
-    be plugged out as these components are not washable. Lilypad with integrated  
-    Bluetooth is being sourced so that handling of removable module is avoided, giving  
-    convenience to the user
--   My turn by turn navigation software uses GPS signals to triangulate the user’s  
-    current location, and determine distance to the next turn. So, in case the GPS signal  
-    is interrupted, the auto-­‐indicator function will stop functioning until GPS signal is  
-    received again. In such a scenario, the user will manually operate the indicators  
-    using an integrated manual control system.
--   Currently, my app does not have the ability to re-­‐route to the destination in case the  
-    user takes an incorrect turn or decides to go by some other route. This means that  
-    the user has to restart navigation if he exits the pre decided route. However, this is  
-    already being worked on in the extension phase of this project.
+-   Before washing/cleaning the jacket, the Bluetooth transceiver and battery need to be plugged out as these components are not washable. Lilypad with integrated Bluetooth is being sourced so that handling of removable module is avoided, giving       convenience to the user 
+-   My turn by turn navigation software uses GPS signals to triangulate the user’s current location, and determine distance to the next turn. So, in case the GPS signal is interrupted, the auto-­‐indicator function will stop functioning until GPS signal is received again. In such a scenario, the user will manually operate the indicators using an integrated manual control system. 
+-   Currently, my app does not have the ability to re-­‐route to the destination in case the user takes an incorrect turn or decides to go by some other route. This means that the user has to restart navigation if he exits the pre decided route. However, this is already being worked on in the extension phase of this project.
 
 #### Upgradation /Improvements (Work in Progress)
 
--   Another major cause of road mishaps is ‘Drunk Driving’. Consequence of drunk  
-    driving are clear in everyone’s mind until they are actually driving. For that purpose,  
-    JARS will feature an alcohol breath analyser that will measure alcohol content in the  
-    breath and indicate whether the person is just on the brink of getting drunk and  
-    should stop or whether he/she is completely drunk and unfit for driving. If detected  
-    drunk, a message will be sent to an emergency contact ( mother or spouse etc.) to  
-    warn the driver.
--   The indicator manual buttons currently located in gloves, will communicate  
-    wirelessly with the lilypad for ease of operation.
--   A gyroscope attached to central axis of bike is being planned to program to turn  
-    indicators even at the time of lane shifting
--   Lilypad with integrated Bluetooth is being sourced so that handling of removable  
-    module is avoided, giving convenience to the user
+-   Another major cause of road mishaps is ‘Drunk Driving’. Consequence of drunk driving are clear in everyone’s mind until they are actually driving. For that purpose, JARS will feature an alcohol breath analyser that will measure alcohol content in the breath and indicate whether the person is just on the brink of getting drunk and should stop or whether he/she is completely drunk and unfit for driving. If detected drunk, a message will be sent to an emergency contact ( mother or spouse etc.) to warn the driver.
+-   The indicator manual buttons currently located in gloves, will communicate wirelessly with the lilypad for ease of operation.
+-   A gyroscope attached to central axis of bike is being planned to program to turn indicators even at the time of lane shifting
+-   Lilypad with integrated Bluetooth is being sourced so that handling of removable module is avoided, giving convenience to the user
 
 ##### How can cost of JARS automation be reduced at industrial level?
 
-Currently, the fundamental components of JARS, the Lilypad Arduino and sewable LED  
-constitute majority of its cost. This cost can be cut easily.
+Currently, the fundamental components of JARS, the Lilypad Arduino and sewable LED   constitute majority of its cost. This cost can be cut easily. The Arduino will be replaced by a single PCB with a microprocessor on it. While LEDS are just SMD LEDs on a small board. This means that effectively cost can be cut by 40-­‐50 percent easily just by changing the   components. The Bluetooth chip will be integrated into the controlled PCB, to cut costs even further.   Lilypad proto boards are not required in industrial production.
 
-The Arduino will be replaced by a single PCB with a microprocessor on it.
-
-While LEDS are just SMD LEDs on a small board.
-
-This means that effectively cost can be cut by 40-­‐50 percent easily just by changing the  
-components.
-
-The Bluetooth chip will be integrated into the controlled PCB, to cut costs even further.  
-Lilypad proto boards are not required in industrial production.
-
-**Overall the smart jacket automation at Industrial production level should not cost over  
-INR 500.**
+**Overall the smart jacket automation at Industrial production level should not cost over INR 500.**
 
 ## Trial RUNS
 
