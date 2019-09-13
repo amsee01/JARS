@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master copy/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master copy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/amanladia/Downloads/JARS Android Code/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/amanladia/Downloads/JARS Android Code/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/color-v23/abc_color_highlight_material.xml"
+    }
+]

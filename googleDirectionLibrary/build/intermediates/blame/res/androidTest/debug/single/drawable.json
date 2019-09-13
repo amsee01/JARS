@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "/Users/amanladia/Downloads/JARS Android Code/googleDirectionLibrary/build/intermediates/res/merged/androidTest/debug/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/amanladia/Downloads/JARS Android Code/googleDirectionLibrary/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master/googleDirectionLibrary/build/intermediates/res/merged/androidTest/debug/drawable/common_plus_signin_btn_text_dark.xml",
+        "source": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master/googleDirectionLibrary/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master copy/googleDirectionLibrary/build/intermediates/res/merged/androidTest/debug/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master copy/googleDirectionLibrary/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master/googleDirectionLibrary/build/intermediates/res/merged/androidTest/debug/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master/googleDirectionLibrary/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/amanladia/Downloads/JARS Android Code/googleDirectionLibrary/build/intermediates/res/merged/androidTest/debug/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/amanladia/Downloads/JARS Android Code/googleDirectionLibrary/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master copy/googleDirectionLibrary/build/intermediates/res/merged/androidTest/debug/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master copy/googleDirectionLibrary/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master copy/googleDirectionLibrary/build/intermediates/res/merged/androidTest/debug/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master copy/googleDirectionLibrary/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master copy/googleDirectionLibrary/build/intermediates/res/merged/androidTest/debug/drawable/common_plus_signin_btn_text_dark.xml",
+        "source": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master copy/googleDirectionLibrary/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master copy/googleDirectionLibrary/build/intermediates/res/merged/androidTest/debug/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master copy/googleDirectionLibrary/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/amanladia/Downloads/JARS Android Code/googleDirectionLibrary/build/intermediates/res/merged/androidTest/debug/drawable/common_plus_signin_btn_icon_light.xml",
+        "source": "/Users/amanladia/Downloads/JARS Android Code/googleDirectionLibrary/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master/googleDirectionLibrary/build/intermediates/res/merged/androidTest/debug/drawable/common_plus_signin_btn_text_light.xml",
+        "source": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master/googleDirectionLibrary/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/amanladia/Downloads/JARS Android Code/googleDirectionLibrary/build/intermediates/res/merged/androidTest/debug/drawable/common_plus_signin_btn_text_dark.xml",
+        "source": "/Users/amanladia/Downloads/JARS Android Code/googleDirectionLibrary/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master copy/googleDirectionLibrary/build/intermediates/res/merged/androidTest/debug/drawable/common_plus_signin_btn_text_light.xml",
+        "source": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master copy/googleDirectionLibrary/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/amanladia/Downloads/JARS Android Code/googleDirectionLibrary/build/intermediates/res/merged/androidTest/debug/drawable/common_plus_signin_btn_text_light.xml",
+        "source": "/Users/amanladia/Downloads/JARS Android Code/googleDirectionLibrary/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master copy/googleDirectionLibrary/build/intermediates/res/merged/androidTest/debug/drawable/common_plus_signin_btn_icon_light.xml",
+        "source": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master copy/googleDirectionLibrary/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master/googleDirectionLibrary/build/intermediates/res/merged/androidTest/debug/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master/googleDirectionLibrary/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master/googleDirectionLibrary/build/intermediates/res/merged/androidTest/debug/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master/googleDirectionLibrary/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master/googleDirectionLibrary/build/intermediates/res/merged/androidTest/debug/drawable/common_plus_signin_btn_icon_light.xml",
+        "source": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master/googleDirectionLibrary/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master/googleDirectionLibrary/build/intermediates/res/merged/androidTest/debug/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master/googleDirectionLibrary/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master/googleDirectionLibrary/build/intermediates/res/merged/androidTest/debug/drawable/common_plus_signin_btn_icon_dark.xml",
+        "source": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master/googleDirectionLibrary/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/amanladia/Downloads/JARS Android Code/googleDirectionLibrary/build/intermediates/res/merged/androidTest/debug/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/Users/amanladia/Downloads/JARS Android Code/googleDirectionLibrary/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/amanladia/Downloads/JARS Android Code/googleDirectionLibrary/build/intermediates/res/merged/androidTest/debug/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/Users/amanladia/Downloads/JARS Android Code/googleDirectionLibrary/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master copy/googleDirectionLibrary/build/intermediates/res/merged/androidTest/debug/drawable/common_plus_signin_btn_icon_dark.xml",
+        "source": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master copy/googleDirectionLibrary/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/amanladia/Downloads/JARS Android Code/googleDirectionLibrary/build/intermediates/res/merged/androidTest/debug/drawable/common_plus_signin_btn_icon_dark.xml",
+        "source": "/Users/amanladia/Downloads/JARS Android Code/googleDirectionLibrary/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_icon_dark.xml"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master copy/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master copy/app/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/Users/amanladia/Downloads/JARS Android Code/app/build/intermediates/res/merged/debug/menu/gatt_services.xml",
+        "source": "/Users/amanladia/Downloads/JARS Android Code/app/src/main/res/menu/gatt_services.xml"
+    },
+    {
+        "merged": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master copy/app/build/intermediates/res/merged/debug/menu/gatt_services.xml",
+        "source": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master copy/app/src/main/res/menu/gatt_services.xml"
+    },
+    {
+        "merged": "/Users/amanladia/Downloads/JARS Android Code/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/amanladia/Downloads/JARS Android Code/app/src/main/res/menu/main.xml"
+    }
+]

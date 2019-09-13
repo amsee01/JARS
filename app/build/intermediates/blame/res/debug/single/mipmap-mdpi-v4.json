@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master copy/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_launcher.png",
+        "source": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master copy/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_launcher.png",
+        "source": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/amanladia/Downloads/JARS Android Code/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_launcher.png",
+        "source": "/Users/amanladia/Downloads/JARS Android Code/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    }
+]

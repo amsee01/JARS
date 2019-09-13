@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/amanladia/Downloads/JARS Android Code/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/Users/amanladia/Downloads/JARS Android Code/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master copy/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master copy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/Users/amanladia/Downloads/Android-GoogleDirectionLibrary-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
+    }
+]
