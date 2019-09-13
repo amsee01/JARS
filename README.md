@@ -1,100 +1,53 @@
-﻿
+#JARS - Jacket Automation for Riders' Safety
+
+- [Abstract](#abstract)
+  * [Introducing JARS powered by Google:  ***" A Rider’s Safety Jacket"***](#introducing-jars-powered-by-google--------a-rider-s-safety-jacket----)
+      - [*(A smart perspective in Road Safety Automation)*](#--a-smart-perspective-in-road-safety-automation--)
+      - [*SAFE ROADS, HAPPY FAMILIES*](#-safe-roads--happy-families-)
+    + [Origin of the thought-­‐ Snapshot of my Research](#origin-of-the-thought----snapshot-of-my-research)
+  * [My RTI Query and Reply](#my-rti-query-and-reply)
+  * [Why did I think of making a safety wearable for bikers?](#why-did-i-think-of-making-a-safety-wearable-for-bikers-)
+  * [A Survey done in UAE](#a-survey-done-in-uae)
+  * [State of safety automation for 2 wheelers](#state-of-safety-automation-for-2-wheelers)
+  * [Purpose of my automation for 2 wheelers](#purpose-of-my-automation-for-2-wheelers)
+  * [Statement of purpose](#statement-of-purpose)
+  * [What is JARS?](#what-is-jars-)
+  * [What are the features of JARS?](#what-are-the-features-of-jars-)
+  * [How do the indicators toggle automatically?](#how-do-the-indicators-toggle-automatically-)
+  * [How does JARS do this?](#how-does-jars-do-this-)
+  * [The Mobile App](#the-mobile-app)
+  * [The Arduino Lilypad Jacket](#the-arduino-lilypad-jacket)
+  * [Technical Specifications of the Arduino Lilypad](#technical-specifications-of-the-arduino-lilypad)
+  * [Choice of Platform](#choice-of-platform)
+  * [E-­‐Textiles](#e---textiles)
+    + [What are e-­‐textiles?](#what-are-e---textiles-)
+    + [How do e-­‐textiles work?](#how-do-e---textiles-work-)
+      - [What are conductive threads?](#what-are-conductive-threads-)
+    + [Are e-­‐textiles safe?](#are-e---textiles-safe-)
+  * [Programming Code](#programming-code)
+      - [Android](#android)
+  * [But  how  does  JARS  know  whether  it  is  a  left  or  a  right?](#but--how--does--jars--know--whether--it--is--a--left--or--a--right-)
+  * [Shifting  to  the  next  turn  once  the  current  one  is  crossed](#shifting--to--the--next--turn--once--the--current--one--is--crossed)
+  * [Electrical circuit schematic](#electrical-circuit-schematic)
+  * [Sourcing of parts](#sourcing-of-parts)
+  * [Part list](#part-list)
+  * [Costing](#costing)
+  * [Discussions-­‐ Questions and Answers](#discussions----questions-and-answers)
+    + [Comparison with existing products](#comparison-with-existing-products)
+  * [Safety Aspect of Jars](#safety-aspect-of-jars)
+    + [Can JARS be washed?](#can-jars-be-washed-)
+      - [Current Limitations and Possibilities of Error](#current-limitations-and-possibilities-of-error)
+      - [Upgradation /Improvements (Work in Progress)](#upgradation--improvements--work-in-progress-)
+        * [How can cost of JARS automation be reduced at industrial level?](#how-can-cost-of-jars-automation-be-reduced-at-industrial-level-)
+  * [Trial RUNS](#trial-runs)
+  * [Conclusion](#conclusion)
+  * [Reference list](#reference-list)
+  * [Attachments](#attachments)
 
 
-1. *Abstract..................................................................................*
+#  Abstract
 
-2. *Origin of the thought-­‐ Snapshot of my Research* ..................
-
-**My RTI Query and Reply.....................................................................................**
-
-**Why did I think of making a safety wearable for bikers?..................................**
-
-**A Survey done in UAE.........................................................................................**
-
-3. *State of safety automation for 2 wheelers .................................*
-
-4. *Purpose of my automation for 2 wheelers .................................*
-
-5. *Statement of purpose ..............................................................*
-
-6. *What is JARS? .........................................................................*
-
-7. *What are the features of JARS? ................................................*
-
-8. *How do the indicators toggle automatically? .............................*
-
-9. *How does JARS do this? ...........................................................*
-
-10. *The Mobile App .......................................................................*
-
-11. *The Arduino Lilypad Jacket .......................................................*
-
-12. *Technical Specifications of the Arduino Lilypad .........................*
-
-13. *Choice of Platform ..................................................................*
-
-14. *E-­‐Textiles ................................................................................*
-
-**What are e-­textiles?.........................................................................................**
-
-**How do e-textiles work?...................................................................................**
-
-**What are conductive threads?.........................................................................**
-
-**Are e­‐textiles safe?...........................................................................................**
-
-15. *Programming Code ..................................................................*
-
-**Android.............................................................................................................**
-
-***But how does JARS know whether it is a left or a right?..............................***
-
-***Shifting to the next turn once the current one is crossed.............................***
-
-16. *Sourcing of parts .....................................................................*
-
-17. *Part List ..................................................................................*
-
-18. *Costing ...................................................................................*
-
-19. *Discussions ‐ Questions and Answers .........................................*
-
-**Comparison with existing products..................................................................**
-
-**Safety Aspect of Jars.........................................................................................**
-
-**Can JARS be washed?......................................................................................**
-
-**Current Limitations and Possibilities of Error..................................................**
-
-**Upgradation/Improvements (Work in Progress)............................................**
-
-**How can cost of JARS automation be reduced at industrial level? .................**
-
-**Trial Runs......................................................................................**
-
- 20. *Conclusion ..............................................................................*
-
-21. *Reference list ..........................................................................*
-
-22.  *Attachments ...........................................................................*
-
-**Jars complete Programming code including APP-­‐ ...............................**
-
- **Invoices .................................................................................................................**
-
- **RTI -­‐reply letter from Govt. of India .....................................................................**
-
-**E textiles tutorials .................................................................................................**
- 
-
-
-
-
-
-##  Abstract
-
-# Introducing JARS powered by Google:  ***" A Rider’s Safety Jacket"***
+## Introducing JARS powered by Google:  ***" A Rider’s Safety Jacket"***
 
 #### *(A smart perspective in Road Safety Automation)*
 
@@ -281,11 +234,11 @@ This prototype is protected under the Creative Commons Attribution-­Non Commerc
 
 
 
-1. A recent study conducted by the Society of Automotive Engineers has revealed that failure to use turn signals results in more than twice the number of accidents that are caused by distracted driving. To address this issue, JARS provides a solution by which indicators are automatically turned on before the next turn approaches. This ensures that indicators are always on at the right time to warn the vehicles behind of the approaching turn, thus reducing risk of an accident. 
-2. Slow ! Your family is waiting for you Another major issue with motorbike riding is the danger of high speeds, which can turn out to be fatal in a worst case scenario. Riders often fail to realize their excessive speed until it’s too late. JARS warns the rider as his speed exceeds the safe limits so that he/she can slow down before the situation goes out of hand. 
+1. A recent study conducted by the Society of Automotive Engineers has revealed that failure to use turn signals results in more than twice the number of accidents that are caused by distracted driving. To address this issue, JARS provides a solution by which indicators are automatically turned on before the next turn approaches. This ensures that indicators are always on at the right time to warn the vehicles behind of the approaching turn, thus reducing risk of an accident.
+2. Slow ! Your family is waiting for you Another major issue with motorbike riding is the danger of high speeds, which can turn out to be fatal in a worst case scenario. Riders often fail to realize their excessive speed until it’s too late. JARS warns the rider as his speed exceeds the safe limits so that he/she can slow down before the situation goes out of hand.
 3. Don’t use mobile phones  while driving Navigation using Google Maps is very difficult on a bike as the biker’s eyes should always be on the road. JARS provides a safe and easy way for a biker to navigate to an unknown destination without the hassle of handling a phone and risking an accident.
  4. Allow life to thrive, don’t drink and drive Consequences of drunk driving are clear in everyone’s mind until they are actually drunk. JARS will soon feature an alcohol breath analyser so that the person is warned that they are not sober enough to drive, and can arrange for an alternate means of transport.
- 
+
  ## How do the indicators toggle automatically?
 
 JARS is equipped with a mobile app that makes use of Google Maps APIs. When the user  opens the app, he can feed in his destination. After crunching some numbers (which doesn’t  take more than a second) the app returns the user with several routes to the destinations. The user can select the one he wants, and start the automatic indicator (from the app itself). That’s it! He/she can start driving and the indicators will be on 60 meters before a turn approaches. Automatically. All the time.
@@ -323,7 +276,7 @@ processes commands sent serially (Byte by byte) and performs actions accordingly
 The two phases work together to provide JARS its complete pallet of functionality, which in its essence proves how close machine and code can get.
 
 ## Technical Specifications of the Arduino Lilypad
- 
+
 | **Microcontroller**  | ***ATmega32u***  |
 |-- | --|
 | **Operating Voltage** | ***3.3V***    |
@@ -339,7 +292,7 @@ The two phases work together to provide JARS its complete pallet of functionalit
 
 
 
- 
+
 
 ## Choice of Platform
 
@@ -408,7 +361,7 @@ involves feeding the Address in a text box, and clicking the “Set Destination�
 2. ***Fetching all possible routes to the destination :*** When the user presses the button to select the route to the destination, a Google Maps Server and API Key help determine all the routes to the destination. In addition to this, a custom library helps fetch the routes in the form of a list object, which is then read. To do this, this activity uses the geocoded destination retrieved earlier and the user’s current location based on GPS, and sends this data to Google. The routes that are received are displayed using polylines on a map, with different colours indicating different routes. These polylines have their ID stored in a list, for later use.
 
 
-```java var s = "JavaScript syntax highlighting"; alert(s); 
+```java var s = "JavaScript syntax highlighting"; alert(s);
 @Override
 public void onDirectionSuccess(Direction direction, String rawBody) {
 Snackbar. make ( btnRequestDirection , "Success with status : " + direction.getStatus(),
@@ -437,7 +390,7 @@ btnRequestDirection .setVisibility(View. GONE );
 3.  ***Identifying which route is selected:*** I used the  
     setOnPolylineClickListener() to register a tap on a polyline. The ID of the  
     clicked polyline is stored in a variable. At the same time, the selected polyline turns a     thick dark blue colour to indicate that this route has been selected.
-```java var s = "JavaScript syntax highlighting"; alert(s); 
+```java var s = "JavaScript syntax highlighting"; alert(s);
 googleMap.setOnPolylineClickListener( new GoogleMap.OnPolylineClickListener()
 {
 @Override
@@ -457,8 +410,8 @@ Snackbar. LENGTH_SHORT ).show();
     poly line ID Array List until it finds the one the user clicked on. Once it finds it, it sets  
     the route using the same index value of the ID. Thus, my app has successfully set the  
     route that the user has selected, making the jacket ready for use.
-    
-```java var s = "JavaScript syntax highlighting"; alert(s); 
+
+```java var s = "JavaScript syntax highlighting"; alert(s);
 try
 {
 for (String s:AlternativeDirectionActivity. storePolId )
@@ -482,7 +435,7 @@ Toast. makeText (MainActivity. this , "Couldn't find index" ,Toast. LENGTH_SHORT
 
 
 ## But  how  does  JARS  know  whether  it  is  a  left  or  a  right?
-The   custom     library    used   has    a      maneuver   function   which      returns    whether    it     is     a      slight   left,     a      sharp      right,     a      straight   cut    etc.   For    sake   of     simplicity,    I      modified   the    maneuver constant      file   such   that   whether    it     is     a      sharp      or     a      slight     left,      the    string     returned   will always   be     “left”.    Then,  we     use    the    .equals()  string     function   to     check  whether    the   returned      string     is     a      “left”     or     a      “right”,  and    accordingly,   Bluetooth      code   is    sent  to    the jacket. 
+The   custom     library    used   has    a      maneuver   function   which      returns    whether    it     is     a      slight   left,     a      sharp      right,     a      straight   cut    etc.   For    sake   of     simplicity,    I      modified   the    maneuver constant      file   such   that   whether    it     is     a      sharp      or     a      slight     left,      the    string     returned   will always   be     “left”.    Then,  we     use    the    .equals()  string     function   to     check  whether    the   returned      string     is     a      “left”     or     a      “right”,  and    accordingly,   Bluetooth      code   is    sent  to    the jacket.
 
 ## Shifting  to  the  next  turn  once  the  current  one  is  crossed
 It is important to learn how our custom directions library works. Each route is divided into legs, which is further divided into several steps. The route parameter was set once the user chose his desired route. The leg parameter has some additional functionality, which was not required in our program. So, the leg index was set to (0), because all ourroutes currently have only 1 leg. The step parameter was the one that was constantly changed during run time.
@@ -493,32 +446,32 @@ As    indicated      alongside,     each   “step”     is     nothing    but 
 As    a      safety     measure,   to     prevent    an     index      not    found exception    from   being      thrown,  this      incremental    process    is     stalled    once   the    manIndex   (maneuver      index)     is     1      less   that the   size   of     the    step   object.    The    statement      is     surrounded     by     try-­‐catch()      to     handle     any  other     exceptions.
 ![l](https://i.imgur.com/4aP1zpP.jpg)
 
-   ```java var s = "JavaScript syntax highlighting"; alert(s); 
+   ```java var s = "JavaScript syntax highlighting"; alert(s);
     @Override  
     **public void**  onLocationChanged(Location location) {
-    
+
     _currentlat_  = location.getLatitude();  
     _currentlng_  = location.getLongitude();  
     **latituteField**  .setText(Double.  _toString_  (  _currentlat_  ));  
     **longitudeField**  .setText(Double.  _toString_  (  _currentlng_  ));
-    
+
     **if**  (  _checkInit_  ==  **true**  ) {  
     _a_  = SimpleDirectionActivity.  _leg_  .getStepList().get(SimpleDirectionActivity.  _stepInd_  );  
     _man_  = SimpleDirectionActivity.  _leg_  .getStepList().get(  _manInd_  );
-    
+
     SimpleDirectionActivity.  _maneuver_  =  _man_  .getManeuver();
-    
+
     _getLong_  =  _a_  .getEndLocation().getLongitude();  
     _getLat_  =  _a_  .getEndLocation().getLatitude();  
     Location.  _distanceBetween_  (  _getLat_  ,  _getLong_  ,  _currentlat_  ,  _currentlng_  ,  _results_  );  
     _distance_  =  _results_  [ 0 ];
-    
+
     **if**  (  _distance_  < 15 )  
     {  
     Toast.  _makeText_  (  **this**  ,  **"indCheck=true"**  ,Toast.  **_LENGTH_SHORT_**  ).show();  
     _indCheck_  =  **true**  ;  
     }
-    
+
     **if**  (  _distance_  > 20 &&  _indCheck_  )  
     {  
     Toast.  _makeText_  (  **this**  ,  **"Indicator OFF"**  ,Toast.  **_LENGTH_LONG_**  ).show();  
@@ -527,11 +480,11 @@ As    a      safety     measure,   to     prevent    an     index      not    fo
     "**  +Integer.  _toString_  (SimpleDirectionActivity.  _stepInd_  )+  **"Step:  
     "**  +Integer.  _toString_  (SimpleDirectionActivity.  _leg_  .getStepList().size()),Toast.  **_LENGTH_SHORT_**  ).sho  
     w();
-    
+
     **if**  (SimpleDirectionActivity.  _stepInd_  <SimpleDirectionActivity.  _leg_  .getStepList().size()) {  
     Toast.  _makeText_  (  **this**  ,  **"updated indexes"**  , Toast.  **_LENGTH_SHORT_**  ).show();  
     SimpleDirectionActivity.  _stepInd_  ++;
-    
+
     }  
     **if**  ((  _manInd_  + 1 )<SimpleDirectionActivity.  _leg_  .getStepList().size())  
     {  
@@ -549,21 +502,21 @@ As    a      safety     measure,   to     prevent    an     index      not    fo
     **"\t manIndex: "**  + Integer.  _toString_  (  _manInd_  ) +  **" stepIndex: "**  +  
     Integer.  _toString_  (SimpleDirectionActivity.  _stepInd_  ));  
     }
-    
+
     **if**  (  _distance_  <  _radius_  )  
     {  
     _cood_  .setText(SimpleDirectionActivity.  _maneuver_  +  **"\n"**  +Float.  _toString_  (  _distance_  ));  
     **if**  (SimpleDirectionActivity.  _maneuver_  .equals(  **"left"**  ))  
     {
-    
+
     }  
     **else if**  (SimpleDirectionActivity.  _maneuver_  .equals(  **"right"**  ))  
     {
-    
+
     }  
     _//inRange=true;_  
     }
-    
+
     _//Gmaps link_  
     String stpLat = Double.  _toString_  (  _getLat_  );
     String stpLng = Double. toString ( getLong );
@@ -589,7 +542,7 @@ As    a      safety     measure,   to     prevent    an     index      not    fo
     speedsnack.dismiss();
     }
     }
-    
+
  ```
 6.  ***Constantly monitoring speed:*** Simultaneously, the app also has to measure the     rider’s speed and check if it is over the speed limit of 50 km/h. This is done within     the onLocationChanged() function, where android has an inbuilt method to calculate     speed. The speed value is returned as a floating point integer, which is then    compared to a preset variable. If the current speed is greater than the preset, it will      send the speed warning to the jacket.      In fact, reports suggest that GPS based speedometers are much more accurate than     the stock car ones, as they are subject to wear, loss of calibration etc. The report can be found here: http://gpssystems.net/accurate-­‐gpsbased-­‐speedometer/
 
@@ -613,7 +566,7 @@ Maharashtra -­‐ 400007
  ![enter image description here](https://i.imgur.com/BUU57br.png)
  ## Costing
  The costing below is based on cheapest parts that can be obtained from [Aliexpress](Aliexpress.com) and  other wholesale websites:
- 
+
 |  Item| Cost per unit (INR)   |   Quantity   |Total Cost (INR)
 |--|--| -- | -- |
 |LilyPad Arduino | 345| 1|345
@@ -739,11 +692,11 @@ riding within safe limits.
 
 ***Effect of current on body :*** [http://www.allaboutcircuits.com/textbook/direct-current/chpt-](http://www.allaboutcircuits.com/textbook/direct-current/chpt-) 3/ohms-law-again/
 
-***Helmets aren’t 100% safe:*** 
+***Helmets aren’t 100% safe:***
 [https://www.cnet.com/news/brain-surgeon-theres-no-point-wearing-cycle-helmets/](https://www.cnet.com/news/brain-surgeon-theres-no-point-wearing-cycle-helmets/)
 
 ***Why People don’t use indicators:*** [http://www.thenational.ae/uae/uae-drivers-say-using-indicators-is-a-sign-of-weakness](http://www.thenational.ae/uae/uae-drivers-say-using-indicators-is-a-sign-of-weakness)
-***Source for tutorials on E-­‐textiles:*** 
+***Source for tutorials on E-­‐textiles:***
 http://www.sparkfun.com
 
 ***My RTI request for statistics regarding bike accidents:*** https://goo.gl/JIQCC1
@@ -757,5 +710,3 @@ http://www.sparkfun.com
 ***RTI‐reply letter from Govt. of India***
 
  ***E textiles tutorials***
-
-
